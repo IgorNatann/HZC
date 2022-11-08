@@ -1,82 +1,82 @@
 .menu-lateral {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    background-color: #15191C;
+  background-color: #15191c;
 
-    width: 75vw;
-    height: 100vh;
+  width: 75vw;
+  height: 100vh;
 
-    position: absolute;
-    left: -100vw;
+  position: absolute;
+  left: -100vw;
 
-    transition: .5s;
+  transition: 0.5s;
 }
 
 .menu-lateral--ativo {
-    left: 0;
-    transition: .5s;
+  left: 0;
+  transition: 0.5s;
 }
 
 .menu-leteral__logo {
-    width: 118px;
+  width: 118px;
 
-    padding: 16px;
+  padding: 16px;
 
-    align-self: center;
+  align-self: center;
 }
 
 .menu-lateral__link {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 
-    height: 64px;
+  height: 64px;
 
-    padding-left: 64px;
+  padding-left: 64px;
 
-    color: #95999C;
+  color: #95999c;
 }
 
 .menu-lateral__link--ativo {
-    color: #FFFFFF;
+  color: #ffffff;
 
-    padding-left: 56px;
-    
-    border-left: 8px solid #FFFFFF;
+  padding-left: 56px;
+
+  border-left: 8px solid #ffffff;
 }
 
 .menu-lateral__link::before {
-    content: "\e900";
+  content: "\e900";
 
-    width: 24px;
-    height: 24px;
+  width: 24px;
+  height: 24px;
 
-    font-size: 24px;
+  font-size: 24px;
 
-    position: absolute;
-    left: 24px;
+  position: absolute;
+  left: 24px;
 }
 
 .menu-lateral__link--inicio::before {
-    content: "\e902";
+  content: "\e902";
 }
 
 .menu-lateral__link--videos::before {
-    content: "\e90e";
+  content: "\e90e";
 }
 
 .menu-lateral__link--picos::before {
-    content: "\e909";
+  content: "\e909";
 }
 
 .menu-lateral__link--integrantes::before {
-    content: "\e903";
+  content: "\e903";
 }
 
 .menu-lateral__link--camisas::before {
-    content: "\e900";
+  content: "\e900";
 }
 
 .menu-lateral__link--pinturas::before {
-    content: "\e90a";
+  content: "\e90a";
 }
